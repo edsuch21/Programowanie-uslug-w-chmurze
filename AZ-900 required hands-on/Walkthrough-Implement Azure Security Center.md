@@ -21,7 +21,8 @@ az vm create `
 --location westeurope `
 --admin-username azureuser `
 --admin-password Password0134!
-```- Note: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. You can close the Azure Cloud Shell once it is complete.
+```
+- Note: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. You can close the Azure Cloud Shell once it is complete.
 - - Enable Security Center for your subscription
 We will now enable Security Center for our subscription
 1. Select All services in the upper, left corner of the Azure portal, then select Security, and then select Security Center.- 2. In the Security Center pane click on the GENERAL > Getting Started pane, expand the section Apply your trial on X subscriptions, and ensure you have the subscription that you wish to enable security center for checked, i.e. your free trial subscription, and any other subscription you do not wish to enable security center for, unchecked.- Note: the screenshot above selects a *Visual Studio Ultimate with MSDN* subscription, but the subscription you wish to enable Security Center for may be different i.e. *Azure-Free-Trial*, *Pay-As-You-Go*, or another type subscription
